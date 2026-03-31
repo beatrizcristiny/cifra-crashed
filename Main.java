@@ -5,5 +5,8 @@ public class Main{
         String palavra;
         System.out.println("Digite uma frase: ");
         palavra = scanner.nextLine();
+   
+   
+   
     }
 }

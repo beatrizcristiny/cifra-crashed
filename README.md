@@ -34,4 +34,4 @@ E    V    I    S    A    T    E    M     A    R    I   L
   I    A
   45   46 
 
-  Será: QSOAPINIMI
+  Será: QSOAPINIMI ou 0,5,10,15,20,25,30,35,40,45

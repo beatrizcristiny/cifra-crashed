@@ -31,7 +31,17 @@
                     }
                 }
 
+                int quantfrase = novafrase.length();
+                int resultadodafrase = 0;
+                String frasecif = "";
+
+                for (int z = 0; z < quantfrase; z++) {
+                    frasecif = frasecif + novafrase.charAt(resultadodafrase);
+
+                    resultadodafrase = (resultadodafrase + 3) % quantfrase;
+                }
                 System.out.println("Frase formatada: " + novafrase);
+                System.out.println("Frase cifrada: " + frasecif);
             }
 
       scanner.close();
